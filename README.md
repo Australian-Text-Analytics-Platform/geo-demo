@@ -2,9 +2,10 @@
 
 These tools will retrieve location information for placenames and plot the placenames on a map using the location information. Two databases of location information are demonstrated, the  [OpenStreetMap Geocoder API](https://geocoder.readthedocs.io/providers/OpenStreetMap.html) and the [TLC Gazetteer of Historical Australian Places](https://tlcmap.org/help/guides/ghap-guide/#ws).
 
-To use the notebooks, first prepare a CSV file with a list of placenames, with one name per row (see example below). Save it as `placenames.csv`. 
+To use the notebooks, first prepare a CSV file with a list of placenames, with a column header name `LocationName` and one name per row (see example below). Save it as `placenames.csv`. 
 
 ```csv
+LocationName
 Brisbane
 Caloundra
 Melbourne
